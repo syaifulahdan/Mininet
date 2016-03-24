@@ -28,7 +28,7 @@ mininet>
 
 <pre>
 mininet>dump
-<host h1: h1-eth0:10.0.0.1 pid=1215>
+host h1: h1-eth0:10.0.0.1 pid=1215
 </pre>
 <host h2: h2-eth0:10.0.0.2 pid=1219>
 <host h3: h3-eth0:10.0.0.3 pid=1221>
