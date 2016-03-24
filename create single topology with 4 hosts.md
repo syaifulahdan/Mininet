@@ -26,7 +26,7 @@ s1 ...
 mininet>
 </pre>
 
-<pre>
+
 mininet><b>dump</b>
 <host h1: h1-eth0:10.0.0.1 pid=1215>
 <host h2: h2-eth0:10.0.0.2 pid=1219>
@@ -36,5 +36,5 @@ mininet><b>dump</b>
 pid=1228>
 <Controller c0:127.0.0.1:6633 pid=1208>
 mininet> 
-</pre>
+
 
