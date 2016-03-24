@@ -1,2 +1,0 @@
-# mininet
-learn mininet
