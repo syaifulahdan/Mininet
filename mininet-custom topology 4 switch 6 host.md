@@ -44,6 +44,8 @@ root@10-0-2-15:~# <b>ip link add h6-eth0 type veth peer name s3-eth2</b>
 
 ![alt tag](https://github.com/syaifulahdan/mininet/blob/master/Screenshot%20from%202016-03-25%2016:43:47.png)
 
+##### IP Link Show
+
 <pre>
 root@10-0-2-15:~# <b>ip link show</b>
 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default 
@@ -86,3 +88,5 @@ root@10-0-2-15:~# <b>ip link show</b>
     link/ether c6:62:35:a0:f0:fb brd ff:ff:ff:ff:ff:ff
 root@10-0-2-15:~# 
 </pre>
+
+![alt tag](https://github.com/syaifulahdan/mininet/blob/master/Screenshot%20from%202016-03-25%2016:51:07.png)
