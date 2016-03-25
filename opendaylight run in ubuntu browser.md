@@ -81,4 +81,6 @@ GossipRouter started at Fri Mar 25 15:24:52 PDT 2016
 Listening on port 12001 bound on address 0.0.0.0/0.0.0.0
 Backlog is 1000, linger timeout is 2000, and read timeout is 0
 
+opendaylight-user@root>
+
 </pre>
