@@ -1,5 +1,7 @@
 ### mininet
 
+### use a <b>stop</b> instruction to dismiss controller
+
 
 Usage: /etc/init.d/openvswitch-controller {start|stop|force-stop|restart|force-reload|status}
 
@@ -11,8 +13,9 @@ sudo: unable to resolve host 10-0-2-15
 2016-03-26T04:32:39Z|00003|controller|ERR|pssl:: connect: Address already in use
 ovs-controller: no active or passive switch connections
 mininet@10-0-2-15:~$ sudo /etc/init.d/openvswitch-controller start
-
 </pre>
+
+### use a <b>star</b> instruction to running controller
 
 <pre>
 mininet@10-0-2-15:~$ <b>sudo /etc/init.d/openvswitch-controller stop</b>
