@@ -44,6 +44,19 @@ root@10-0-2-15:~# <b>ip link add h6-eth0 type veth peer name s3-eth2</b>
 
 ![alt tag](https://github.com/syaifulahdan/mininet/blob/master/Screenshot%20from%202016-03-25%2016:43:47.png)
 
+##### create link switch 1(s1-eth0) to switch4 (s4-eth1) and switch 2(s2-eth0) to switch4 (s4-eth2) and switch 3(s3-eth0) to switch4 (s4-eth3)
+
+<pre>
+root@10-0-2-15:~# ip link add s1-eth0 type veth peer name s4-eth1
+root@10-0-2-15:~# ip link add s2-eth0 type veth peer name s4-eth2
+root@10-0-2-15:~# ip link add s3-eth0 type veth peer name s4-eth3
+</pre>
+![alt tag](https://github.com/syaifulahdan/mininet/blob/master/Screenshot%20from%202016-03-25%2016:43:47.png)
+
+
+
+
+
 ##### IP Link Show
 
 <pre>
@@ -89,4 +102,4 @@ root@10-0-2-15:~# <b>ip link show</b>
 root@10-0-2-15:~# 
 </pre>
 
-![alt tag](https://github.com/syaifulahdan/mininet/blob/master/Screenshot%20from%202016-03-25%2016:51:07.png)
+![alt tag](https://github.com/syaifulahdan/mininet/blob/master/Screenshot%20from%202016-03-25%2016:58:50.png)
