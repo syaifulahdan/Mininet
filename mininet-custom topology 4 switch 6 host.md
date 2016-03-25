@@ -106,17 +106,17 @@ root@10-0-2-15:~#
 
 #####Moving a host port to a namespace
 <pre>
-root@10-0-2-15:~# ip link set h1-eth0 netns h1
-root@10-0-2-15:~# ip link set h2-eth0 netns h2
-root@10-0-2-15:~# ip link set h3-eth0 netns h3
-root@10-0-2-15:~# ip link set h4-eth0 netns h4
-root@10-0-2-15:~# ip link set h5-eth0 netns h5
-root@10-0-2-15:~# ip link set h6-eth0 netns h6
+root@10-0-2-15:~# <b>ip link set h1-eth0 netns h1</b>
+root@10-0-2-15:~# <b>ip link set h2-eth0 netns h2</b>
+root@10-0-2-15:~# <b>ip link set h3-eth0 netns h3</b>
+root@10-0-2-15:~# <b>ip link set h4-eth0 netns h4</b>
+root@10-0-2-15:~# <b>ip link set h5-eth0 netns h5</b>
+root@10-0-2-15:~# <b>ip link set h6-eth0 netns h6</b>
 </pre>
 
 ##### ip netns exec h1 ip link show
 <pre>
-root@10-0-2-15:~# ip netns exec h1 ip link show
+root@10-0-2-15:~# <b>ip netns exec h1 ip link show</b>
 1: lo: <LOOPBACK> mtu 65536 qdisc noop state DOWN mode DEFAULT group default 
     link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
 9: h1-eth0: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN mode DEFAULT group default qlen 1000
@@ -126,7 +126,7 @@ root@10-0-2-15:~#
 
 ##### ip netns exec h2 ip link show
 <pre>
-root@10-0-2-15:~# ip netns exec h2 ip link show
+root@10-0-2-15:~# <b>ip netns exec h2 ip link show</b>
 1: lo: <LOOPBACK> mtu 65536 qdisc noop state DOWN mode DEFAULT group default 
     link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
 11: h2-eth0: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN mode DEFAULT group default qlen 1000
@@ -136,7 +136,7 @@ root@10-0-2-15:~#
 
 ##### ip netns exec h3 ip link show
 <pre>
-root@10-0-2-15:~# ip netns exec h3 ip link show
+root@10-0-2-15:~# <b>ip netns exec h3 ip link show</b>
 1: lo: <LOOPBACK> mtu 65536 qdisc noop state DOWN mode DEFAULT group default 
     link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
 13: h3-eth0: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN mode DEFAULT group default qlen 1000
@@ -146,7 +146,7 @@ root@10-0-2-15:~#
 
 ##### ip netns exec h4 ip link show
 <pre>
-root@10-0-2-15:~# ip netns exec h4 ip link show
+root@10-0-2-15:~# <b>ip netns exec h4 ip link show</b>
 1: lo: <LOOPBACK> mtu 65536 qdisc noop state DOWN mode DEFAULT group default 
     link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
 15: h4-eth0: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN mode DEFAULT group default qlen 1000
@@ -156,7 +156,7 @@ root@10-0-2-15:~#
 
 ##### ip netns exec h5 ip link show
 <pre>
-root@10-0-2-15:~# ip netns exec h5 ip link show
+root@10-0-2-15:~# <b>ip netns exec h5 ip link show</b>
 1: lo: <LOOPBACK> mtu 65536 qdisc noop state DOWN mode DEFAULT group default 
     link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
 17: h5-eth0: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN mode DEFAULT group default qlen 1000
@@ -166,10 +166,24 @@ root@10-0-2-15:~#
 
 ##### ip netns exec h6 ip link show
 <pre>
-root@10-0-2-15:~# ip netns exec h6 ip link show
+root@10-0-2-15:~# <b>ip netns exec h6 ip link show</b>
 1: lo: <LOOPBACK> mtu 65536 qdisc noop state DOWN mode DEFAULT group default 
     link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
 19: h6-eth0: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN mode DEFAULT group default qlen 1000
     link/ether c6:62:35:a0:f0:fb brd ff:ff:ff:ff:ff:ff
 root@10-0-2-15:~# 
 </pre>
+
+#####connect the switch ports to OVS
+<pre>
+root@10-0-2-15:~# <b>ovs-vsctl add-port s1 s1-eth1</b>
+root@10-0-2-15:~# <b>ovs-vsctl add-port s1 s1-eth2</b>
+root@10-0-2-15:~# <b>ovs-vsctl add-port s2 s2-eth1</b>
+root@10-0-2-15:~# <b>ovs-vsctl add-port s2 s2-eth2</b>
+root@10-0-2-15:~# <b>ovs-vsctl add-port s3 s3-eth2</b>
+root@10-0-2-15:~# <b>ovs-vsctl add-port s3 s3-eth1</b>
+root@10-0-2-15:~# <b>ovs-vsctl add-port s4 s4-eth1</b>
+root@10-0-2-15:~# <b>ovs-vsctl add-port s4 s4-eth2</b>
+</pre>
+
+
