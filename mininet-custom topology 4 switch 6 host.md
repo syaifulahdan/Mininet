@@ -315,4 +315,26 @@ aaa4c93f-aa5a-4e41-b565-47c6f100c291
 root@10-0-2-15:~# 
 </pre>
 #####Configure network
-
+<pre>
+root@10-0-2-15:~# <b>ip netns exec h1 ifconfig h1-eth0 10.1</b>
+root@10-0-2-15:~# <b>ip netns exec h2 ifconfig h2-eth0 10.2</b>
+root@10-0-2-15:~# <b>ip netns exec h3 ifconfig h3-eth0 10.3</b>
+root@10-0-2-15:~# <b>ip netns exec h4 ifconfig h4-eth0 10.4</b>
+root@10-0-2-15:~# <b>ip netns exec h5 ifconfig h5-eth0 10.5</b>
+root@10-0-2-15:~# <b>ip netns exec h6 ifconfig h6-eth0 10.6</b>
+root@10-0-2-15:~# <b>ip netns exec h1 ifconfig lo up</b>
+root@10-0-2-15:~# <b>ip netns exec h2 ifconfig lo up</b>
+root@10-0-2-15:~# <b>ip netns exec h3 ifconfig lo up</b>
+root@10-0-2-15:~# <b>ip netns exec h4 ifconfig lo up</b>
+root@10-0-2-15:~# <b>ip netns exec h5 ifconfig lo up</b>
+root@10-0-2-15:~# <b>ip netns exec h6 ifconfig lo up</b>
+root@10-0-2-15:~# <b>ifconfig s1-eth1 up</b>
+root@10-0-2-15:~# <b>ifconfig s1-eth2 up</b>
+root@10-0-2-15:~# <b>ifconfig s2-eth1 up</b>
+root@10-0-2-15:~# <b>ifconfig s2-eth2 up</b>
+root@10-0-2-15:~# <b>ifconfig s3-eth1 up</b>
+root@10-0-2-15:~# <b>ifconfig s3-eth2 up</b>
+root@10-0-2-15:~# <b>ifconfig s4-eth1 up</b>
+root@10-0-2-15:~# <b>ifconfig s4-eth2 up</b>
+root@10-0-2-15:~# 
+</pre>
