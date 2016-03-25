@@ -186,4 +186,42 @@ root@10-0-2-15:~# <b>ovs-vsctl add-port s4 s4-eth1</b>
 root@10-0-2-15:~# <b>ovs-vsctl add-port s4 s4-eth2</b>
 </pre>
 
-
+#####menghubungkan switch ports to OVS
+<b>
+root@10-0-2-15:~# ovs-vsctl show
+aaa4c93f-aa5a-4e41-b565-47c6f100c291
+    Bridge "s4"
+        Port "s4-eth1"
+            Interface "s4-eth1"
+        Port "s4-eth2"
+            Interface "s4-eth2"
+        Port "s4"
+            Interface "s4"
+                type: internal
+    Bridge "s2"
+        Port "s2-eth2"
+            Interface "s2-eth2"
+        Port "s2"
+            Interface "s2"
+                type: internal
+        Port "s2-eth1"
+            Interface "s2-eth1"
+    Bridge "s1"
+        Port "s1"
+            Interface "s1"
+                type: internal
+        Port "s1-eth2"
+            Interface "s1-eth2"
+        Port "s1-eth1"
+            Interface "s1-eth1"
+    Bridge "s3"
+        Port "s3-eth1"
+            Interface "s3-eth1"
+        Port "s3-eth2"
+            Interface "s3-eth2"
+        Port "s3"
+            Interface "s3"
+                type: internal
+    ovs_version: "2.0.2"
+root@10-0-2-15:~# 
+</b>
