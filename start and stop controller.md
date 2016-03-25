@@ -1,9 +1,8 @@
 ### mininet
 
-### use a <b>stop</b> instruction to dismiss controller
-
-
 Usage: /etc/init.d/openvswitch-controller {start|stop|force-stop|restart|force-reload|status}
+
+### use a <b>start</b> instruction to running controller
 
 <pre>
 mininet@10-0-2-15:~$ <b>sudo /etc/init.d/openvswitch-controller start</b>
@@ -15,7 +14,7 @@ ovs-controller: no active or passive switch connections
 mininet@10-0-2-15:~$ sudo /etc/init.d/openvswitch-controller start
 </pre>
 
-### use a <b>star</b> instruction to running controller
+### use a <b>stop</b> instruction to dismiss controller
 
 <pre>
 mininet@10-0-2-15:~$ <b>sudo /etc/init.d/openvswitch-controller stop</b>
