@@ -186,7 +186,6 @@ root@10-0-2-15:~# <b>ovs-vsctl add-port s4 s4-eth1</b>
 root@10-0-2-15:~# <b>ovs-vsctl add-port s4 s4-eth2</b>
 </pre>
 
-#####menghubungkan switch ports to OVS
 <pre>
 root@10-0-2-15:~# <b>ovs-vsctl show</b>
 aaa4c93f-aa5a-4e41-b565-47c6f100c291
