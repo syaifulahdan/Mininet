@@ -269,7 +269,7 @@ ovs-controller: no active or passive switch connections
 [1]+  Exit 1                  ovs-controller ptcp:
 </pre>
 <pre>
-root@10-0-2-15:~# ovs-vsctl show
+root@10-0-2-15:~# <b>ovs-vsctl show</b>
 aaa4c93f-aa5a-4e41-b565-47c6f100c291
     Bridge "s4"
         Controller "tcp:127.0.0.1"
