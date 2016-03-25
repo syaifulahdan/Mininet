@@ -35,3 +35,9 @@ root@10-0-2-15:~# ip link add h2-eth0 type veth peer name s1-eth2
 root@10-0-2-15:~# ip link add h3-eth0 type veth peer name s2-eth1
 root@10-0-2-15:~# ip link add h4-eth0 type veth peer name s2-eth2
 </pre>
+
+### create link host 5(h5-eth0) to switch3 (s3-eth1) and host 6 (h6-eth0) to switch3 (s2-eth2)
+<pre>
+root@10-0-2-15:~# ip link add h5-eth0 type veth peer name s3-eth1
+root@10-0-2-15:~# ip link add h6-eth0 type veth peer name s3-eth2
+</pre>
