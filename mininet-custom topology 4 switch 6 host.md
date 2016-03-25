@@ -41,3 +41,5 @@ root@10-0-2-15:~# ip link add h4-eth0 type veth peer name s2-eth2
 root@10-0-2-15:~# ip link add h5-eth0 type veth peer name s3-eth1
 root@10-0-2-15:~# ip link add h6-eth0 type veth peer name s3-eth2
 </pre>
+
+![alt tag](https://github.com/syaifulahdan/mininet/blob/master/Screenshot%20from%202016-03-25%2016:43:47.png)
