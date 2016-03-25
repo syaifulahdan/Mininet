@@ -103,3 +103,13 @@ root@10-0-2-15:~#
 </pre>
 
 ![alt tag](https://github.com/syaifulahdan/mininet/blob/master/Screenshot%20from%202016-03-25%2016:51:07.png)
+
+#####Moving a host port to a namespace
+<pre>
+root@10-0-2-15:~# ip link set h1-eth0 netns h1
+root@10-0-2-15:~# ip link set h2-eth0 netns h2
+root@10-0-2-15:~# ip link set h3-eth0 netns h3
+root@10-0-2-15:~# ip link set h4-eth0 netns h4
+root@10-0-2-15:~# ip link set h5-eth0 netns h5
+root@10-0-2-15:~# ip link set h6-eth0 netns h6
+</pre>
