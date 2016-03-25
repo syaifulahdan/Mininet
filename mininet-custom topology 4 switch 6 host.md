@@ -23,3 +23,9 @@ root@10-0-2-15:~# ovs-vsctl add-br s3
 root@10-0-2-15:~# ovs-vsctl add-br s4
 root@10-0-2-15:~#
 </pre>
+
+### create link host 1(h1-eth0) to switch1 (s1-eth1) and host 2 (h2-eth0) to switch1 (s1-eth2)
+<pre>
+root@10-0-2-15:~# ip link add h1-eth0 type veth peer name s1-eth1
+root@10-0-2-15:~# ip link add h2-eth0 type veth peer name s1-eth2
+</pre>
