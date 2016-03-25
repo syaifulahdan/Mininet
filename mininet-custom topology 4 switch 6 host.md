@@ -187,8 +187,8 @@ root@10-0-2-15:~# <b>ovs-vsctl add-port s4 s4-eth2</b>
 </pre>
 
 #####menghubungkan switch ports to OVS
-<b>
-root@10-0-2-15:~# ovs-vsctl show
+<pre>
+root@10-0-2-15:~# <b>ovs-vsctl show</b>
 aaa4c93f-aa5a-4e41-b565-47c6f100c291
     Bridge "s4"
         Port "s4-eth1"
@@ -224,4 +224,4 @@ aaa4c93f-aa5a-4e41-b565-47c6f100c291
                 type: internal
     ovs_version: "2.0.2"
 root@10-0-2-15:~# 
-</b>
+</pre>
