@@ -23,3 +23,4 @@ s1 s2 s3 s4 s5 s6 ...(1.00Mbit 10ms delay) (1.00Mbit 10ms delay) (1.00Mbit 10ms 
 mininet> 
 
 </pre>
+![alt tag](https://github.com/syaifulahdan/mininet/blob/master/Screenshot%20from%202016-03-26%2000:12:05.png)
