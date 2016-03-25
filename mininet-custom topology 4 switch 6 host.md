@@ -224,3 +224,47 @@ aaa4c93f-aa5a-4e41-b565-47c6f100c291
     ovs_version: "2.0.2"
 root@10-0-2-15:~# 
 </pre>
+
+#####Set up OpenFlow controller
+<pre>
+root@10-0-2-15:~# <b>ovs-vsctl set-controller s1 tcp:127.0.0.1</b>
+root@10-0-2-15:~# <b>ovs-controller ptcp: &</b>
+[1] 4816
+root@10-0-2-15:~# 2016-03-26T00:43:40Z|00001|socket_util|ERR|6633: bind: Address already in use
+2016-03-26T00:43:40Z|00002|controller|ERR|ptcp:: connect: Address already in use
+ovs-controller: no active or passive switch connections
+
+[1]+  Exit 1                  ovs-controller ptcp:
+</pre>
+
+<pre>
+root@10-0-2-15:~# <b>ovs-vsctl set-controller s2 tcp:127.0.0.1</b>
+root@10-0-2-15:~# <b>ovs-controller ptcp: &</b>
+[1] 4977
+root@10-0-2-15:~# 2016-03-26T00:45:13Z|00001|socket_util|ERR|6633: bind: Address already in use
+2016-03-26T00:45:13Z|00002|controller|ERR|ptcp:: connect: Address already in use
+ovs-controller: no active or passive switch connections
+
+[1]+  Exit 1                  ovs-controller ptcp:
+</pre>
+<pre>
+root@10-0-2-15:~# <b>ovs-vsctl set-controller s3 tcp:127.0.0.1</b>
+root@10-0-2-15:~# <b>ovs-controller ptcp: &</b>
+[1] 4991
+root@10-0-2-15:~# 2016-03-26T00:45:30Z|00001|socket_util|ERR|6633: bind: Address already in use
+2016-03-26T00:45:30Z|00002|controller|ERR|ptcp:: connect: Address already in use
+ovs-controller: no active or passive switch connections
+
+[1]+  Exit 1                  ovs-controller ptcp:
+</pre>
+
+<pre>
+root@10-0-2-15:~# <b>ovs-vsctl set-controller s4 tcp:127.0.0.1</b>
+root@10-0-2-15:~# <b>ovs-controller ptcp: &</b>
+[1] 4899
+root@10-0-2-15:~# 2016-03-26T00:44:05Z|00001|socket_util|ERR|6633: bind: Address already in use
+2016-03-26T00:44:05Z|00002|controller|ERR|ptcp:: connect: Address already in use
+ovs-controller: no active or passive switch connections
+
+[1]+  Exit 1                  ovs-controller ptcp:
+</pre>
