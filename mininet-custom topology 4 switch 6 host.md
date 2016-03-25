@@ -113,3 +113,63 @@ root@10-0-2-15:~# ip link set h4-eth0 netns h4
 root@10-0-2-15:~# ip link set h5-eth0 netns h5
 root@10-0-2-15:~# ip link set h6-eth0 netns h6
 </pre>
+
+##### ip netns exec h1 ip link show
+<pre>
+root@10-0-2-15:~# ip netns exec h1 ip link show
+1: lo: <LOOPBACK> mtu 65536 qdisc noop state DOWN mode DEFAULT group default 
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+9: h1-eth0: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN mode DEFAULT group default qlen 1000
+    link/ether 4a:7c:e3:72:cd:f0 brd ff:ff:ff:ff:ff:ff
+root@10-0-2-15:~# 
+</pre>
+
+##### ip netns exec h2 ip link show
+<pre>
+root@10-0-2-15:~# ip netns exec h2 ip link show
+1: lo: <LOOPBACK> mtu 65536 qdisc noop state DOWN mode DEFAULT group default 
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+11: h2-eth0: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN mode DEFAULT group default qlen 1000
+    link/ether 46:7e:f3:f4:84:63 brd ff:ff:ff:ff:ff:ff
+root@10-0-2-15:~# 
+</pre>
+
+##### ip netns exec h3 ip link show
+<pre>
+root@10-0-2-15:~# ip netns exec h3 ip link show
+1: lo: <LOOPBACK> mtu 65536 qdisc noop state DOWN mode DEFAULT group default 
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+13: h3-eth0: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN mode DEFAULT group default qlen 1000
+    link/ether de:08:7f:6e:2d:2a brd ff:ff:ff:ff:ff:ff
+root@10-0-2-15:~# 
+</pre>
+
+##### ip netns exec h4 ip link show
+<pre>
+root@10-0-2-15:~# ip netns exec h4 ip link show
+1: lo: <LOOPBACK> mtu 65536 qdisc noop state DOWN mode DEFAULT group default 
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+15: h4-eth0: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN mode DEFAULT group default qlen 1000
+    link/ether e2:93:6e:ba:42:83 brd ff:ff:ff:ff:ff:ff
+root@10-0-2-15:~# 
+</pre>
+
+##### ip netns exec h5 ip link show
+<pre>
+root@10-0-2-15:~# ip netns exec h5 ip link show
+1: lo: <LOOPBACK> mtu 65536 qdisc noop state DOWN mode DEFAULT group default 
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+17: h5-eth0: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN mode DEFAULT group default qlen 1000
+    link/ether da:6f:b7:a8:08:7e brd ff:ff:ff:ff:ff:ff
+root@10-0-2-15:~# 
+</pre>
+
+##### ip netns exec h6 ip link show
+<pre>
+root@10-0-2-15:~# ip netns exec h6 ip link show
+1: lo: <LOOPBACK> mtu 65536 qdisc noop state DOWN mode DEFAULT group default 
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+19: h6-eth0: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN mode DEFAULT group default qlen 1000
+    link/ether c6:62:35:a0:f0:fb brd ff:ff:ff:ff:ff:ff
+root@10-0-2-15:~# 
+</pre>
