@@ -1,4 +1,4 @@
-# mininet Change Ip host 
+# mininet Change Ip host https://mailman.stanford.edu/pipermail/mininet-discuss/2013-May/002214.html
 
 <pre>
 mininet> <b>h1 ifconfig h1-eth0 10.0.2.100 netmask 255.0.0.0 </b>
@@ -16,3 +16,4 @@ rtt min/avg/max/mdev = 0.899/59.973/235.572/101.383 ms
 mininet> 
 
 </pre>
+
