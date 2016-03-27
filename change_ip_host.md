@@ -1,9 +1,9 @@
 # mininet Change Ip host 
 
 <pre>
-mininet> h1 ifconfig h1-eth0 10.0.2.100 netmask 255.0.0.0
-mininet> h2 ifconfig h2-eth0 10.0.2.101 netmask 255.0.0.0
-mininet> h1 ping h2
+mininet> <b>h1 ifconfig h1-eth0 10.0.2.100 netmask 255.0.0.0 </b>
+mininet> <b>h2 ifconfig h2-eth0 10.0.2.101 netmask 255.0.0.0</b>
+mininet> <b>h1 ping h2</b>
 PING 10.0.2.101 (10.0.2.101) 56(84) bytes of data.
 64 bytes from 10.0.2.101: icmp_seq=1 ttl=64 time=235 ms
 64 bytes from 10.0.2.101: icmp_seq=2 ttl=64 time=2.39 ms
