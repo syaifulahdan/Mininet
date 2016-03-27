@@ -85,3 +85,34 @@ net = Mininet( controller=Controller )
     net.addLink( h2, s3 )
 </b>
 </pre>
+
+#####If summarized, the code is as follows
+
+<pre>
+from mininet.net import Mininet
+from mininet.node import Controller
+from mininet.cli import CLI
+from mininet.log import setLogLevel, info
+
+def emptyNet():
+ net = Mininet( controller=Controller )
+    net.addController( 'c0' )
+   
+    h1 = net.addHost( 'h1', ip='10.0.0.1' )
+    h2 = net.addHost( 'h2', ip='10.0.0.2' )
+    
+    s3 = net.addSwitch( 's3' )
+    
+    net.addLink( h1, s3 )
+    net.addLink( h2, s3 )
+    
+    net.start()
+    CLI( net )
+    net.stop()
+
+if __name__ == '__main__':
+    setLogLevel( 'info' )
+    emptyNet()
+
+
+</pre>
