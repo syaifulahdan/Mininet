@@ -3,7 +3,7 @@ source : https://www.youtube.com/watch?v=yHUNeyaQKWY&index=2&list=PLyiXK9gbG3lCG
 
 <pre>
 mininet@10-0-2-15:~/mininet/examples$ 
-<pre>
+</pre>
 
 open the file in the directory emptynet.py , emptynet.py open the file in the directory <b>/mininet/examples$</b> then open it with nano editor
 
