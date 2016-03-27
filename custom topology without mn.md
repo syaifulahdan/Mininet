@@ -75,3 +75,13 @@ net = Mininet( controller=Controller )
     h2 = net.addHost( 'h2', ip='10.0.0.2' )
 </b>
 </pre>
+
+
+####Link Host to Single Switch
+<pre>
+<b>
+ info( '*** Creating links\n' )
+    net.addLink( h1, s3 )
+    net.addLink( h2, s3 )
+</b>
+</pre>
