@@ -56,3 +56,13 @@ if __name__ == '__main__':
     emptyNet()
 
 </pre>
+
+
+<pre>
+<b>
+net = Mininet( controller=Controller )
+
+    info( '*** Adding controller\n' )
+    net.addController( 'c0' )
+</b>
+</pre>
