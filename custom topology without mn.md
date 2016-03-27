@@ -58,12 +58,20 @@ if __name__ == '__main__':
 </pre>
 
 ####Default Controller
-
 <pre>
 <b>
 net = Mininet( controller=Controller )
 
     info( '*** Adding controller\n' )
     net.addController( 'c0' )
+</b>
+</pre>
+
+####Host
+<pre>
+<b>
+ info( '*** Adding hosts\n' )
+    h1 = net.addHost( 'h1', ip='10.0.0.1' )
+    h2 = net.addHost( 'h2', ip='10.0.0.2' )
 </b>
 </pre>
