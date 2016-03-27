@@ -28,10 +28,10 @@ def emptyNet():
 
     "Create an empty network and add nodes to it."
 
-<red>    net = Mininet( controller=Controller )</red>
+<b> net = Mininet( controller=Controller )</b>
 
-    info( '*** Adding controller\n' )
-    net.addController( 'c0' )
+    <b> info( '*** Adding controller\n' )
+    net.addController( 'c0' ) </b>
 
     info( '*** Adding hosts\n' )
     h1 = net.addHost( 'h1', ip='10.0.0.1' )
