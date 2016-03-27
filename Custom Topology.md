@@ -32,3 +32,28 @@ mininet@10-0-2-15:~/mininet/custom$<b>sudo mn --custom topo-2sw-2host.py --topo 
 </pre>
 
 ![alt tag](https://github.com/syaifulahdan/mininet/blob/master/VirtualBox_Mini_27_03_2016_22_14_51x.PNG)
+
+then conduct experiments like this
+<pre>
+mininet><b>dump</b>
+</pre>
+
+then ...
+
+<pre>
+mininet><b>net</b>
+</pre>
+
+then
+
+<pre>
+mininet><b>pingall</b>
+</pre>
+then
+<pre>
+mininet><b>exit</b>
+</pre>
+
+then to clean topology type the following command
+
+mininet@10-0-2-15:~/mininet/custom$<b>sudo mn -c</b>
