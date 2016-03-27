@@ -95,7 +95,7 @@ from mininet.cli import CLI
 from mininet.log import setLogLevel, info
 
 def emptyNet():
- net = Mininet( controller=Controller )
+    net = Mininet( controller=Controller )
     net.addController( 'c0' )
    
     h1 = net.addHost( 'h1', ip='10.0.0.1' )
