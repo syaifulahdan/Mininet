@@ -9,5 +9,5 @@ The important classes, methods, functions and variables in the above code includ
 - <b>start()</b>              : starts your network
 - <b>pingAll()</b>            : tests connectivity by trying to have all nodes ping each other
 - <b>stop()<?b>               : stops your network
--<b>net.hosts</b>             : all the hosts in a network
--<b>dumpNodeConnections()</b> : dumps connections to/from a set of nodes.
+- <b>net.hosts<b>             : all the hosts in a network
+- <b>dumpNodeConnections()</b> : dumps connections to/from a set of nodes.
