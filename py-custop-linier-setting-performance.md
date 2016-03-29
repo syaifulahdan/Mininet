@@ -54,4 +54,16 @@ def perfTest():
                   host=CPULimitedHost, link=TCLink)
 net.start()
 
+print "Dumping host connections"
+    dumpNodeConnections(net.hosts)
+    print "Testing network connectivity"
+    net.pingAll()
+    print "Testing bandwidth between h1 and h4"
+    h1, h4 = net.get('h1', 'h4')
+    net.iperf((h1, h4))
+    net.stop()
+if __name__ == '__main__':
+    setLogLevel('info')
+    perfTest()
+
 </pre>
