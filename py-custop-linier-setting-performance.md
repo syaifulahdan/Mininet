@@ -42,7 +42,7 @@ class LinearTopo(Topo):
           self.addLink( host, switch, bw=10, delay='5ms', loss=1,
 max_queue_size=1000, use_htb=True)
           if lastSwitch:
-              self.addLink(switch, lastSwitch, bw=10, delay='5ms', loss=1,
+              <b>self.addLink(switch, lastSwitch, bw=10, delay='5ms', loss=1,</b>
 max_queue_size=1000, use_htb=True)
             lastSwitch = switch
 
@@ -67,3 +67,7 @@ if __name__ == '__main__':
     perfTest()
 
 </pre>
+
+##### Description Scrip Python
+
+- <b>self.addHost(name, cpu=f)<?b> : This allows you to specify a fraction of overall system CPU resources which will be allocated to the virtual host.
