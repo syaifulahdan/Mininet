@@ -47,4 +47,4 @@ mininet>
 
 
 </pre>
-![alt tag](https://github.com/syaifulahdan/mininet/blob/master/Screenshot%20from%202016-03-28%2003:01:19.png)
+![alt tag](https://github.com/syaifulahdan/mininet/blob/master/image/Screenshot%20from%202016-03-28%2003-01-19.png)
