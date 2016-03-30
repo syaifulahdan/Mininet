@@ -42,7 +42,7 @@ root@10-0-2-15:~# <b>ip link add h5-eth0 type veth peer name s3-eth1</b>
 root@10-0-2-15:~# <b>ip link add h6-eth0 type veth peer name s3-eth2</b>
 </pre>
 
-![alt tag](https://github.com/syaifulahdan/mininet/blob/master/Screenshot%20from%202016-03-25%2016:43:47.png)
+![alt tag](https://github.com/syaifulahdan/mininet/blob/master/image/Screenshot%20from%202016-03-25%2016-43-47.png)
 
 ##### create link switch 1(s1-eth0) to switch4 (s4-eth1) and switch 2(s2-eth0) to switch4 (s4-eth2) and switch 3(s3-eth0) to switch4 (s4-eth3)
 
