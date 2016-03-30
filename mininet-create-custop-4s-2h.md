@@ -102,7 +102,7 @@ root@10-0-2-15:~# <b>ip link show</b>
 root@10-0-2-15:~# 
 </pre>
 
-![alt tag](https://github.com/syaifulahdan/mininet/blob/master/Screenshot%20from%202016-03-25%2016:51:07.png)
+![alt tag](https://github.com/syaifulahdan/mininet/blob/master/image/Screenshot%20from%202016-03-25%2016-58-50%20(1).png)
 
 #####Moving a host port to a namespace
 <pre>
