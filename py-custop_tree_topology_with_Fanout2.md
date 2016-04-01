@@ -11,6 +11,34 @@ download consists of two files:
 
 
 - <a href="https://github.com/syaifulahdan/mininet/blob/master/py-custop_tree_topology_with_Fanout2-custom_topo.py">custom-topo.py:</a> a sekleton class which you will update with the logic for creating the datacenter topology described above.
+<pre>
+'''
+Coursera:
+- Software Defined Networking (SDN) course
+-- Programming Assignment 2
+Professor: Nick Feamster
+Teaching Assistant: Arpit Gupta, Muhammad Shahbaz
+'''
+
+from mininet.topo import Topo
+
+class CustomTopo(Topo):
+    "Simple Data Center Topology"
+
+    "linkopts - (1:core, 2:aggregation, 3: edge) parameters"
+    "fanout - number of child switch per parent switch"
+    def __init__(self, linkopts1, linkopts2, linkopts3, fanout=2, **opts):
+        # Initialize topology and default options
+        Topo.__init__(self, **opts)
+        
+        # Add your logic here ...
+
+        
+                    
+topos = { 'custom': ( lambda: CustomTopo() ) }
+
+</pre>
+
 - <a href="https://github.com/syaifulahdan/mininet/blob/master/py-custop_tree_topology_with_Fanout2-submit.py">submit.py:</a>  used to submit your code and output to the course servers for grading. You don’t have to do any modifications in here.
 
 ##### CustomTopo.py
@@ -19,3 +47,5 @@ The skeleton class takes following arguments as input:
 - <b>linkopts2</b>: for specifying performance parameters for the links between aggregation and edge switches.
 - <b>linkopts3</b>: for specifying performance parameters for the links between edge switches and host.
 - <b>Fanout</b>: to specify fanout value i.e., number of childs per node.
+
+Your logic should support setting at least bw and delay parameters for each link.
