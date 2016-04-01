@@ -12,34 +12,6 @@ download consists of two files:
 
 - <a href="https://github.com/syaifulahdan/mininet/blob/master/py-custop_tree_topology_with_Fanout2-custom_topo.py">custom-topo.py:</a> a sekleton class which you will update with the logic for creating the datacenter topology described above.
 
-<pre>
-'''
-Coursera:
-- Software Defined Networking (SDN) course
--- Programming Assignment 2
-Professor: Nick Feamster
-Teaching Assistant: Arpit Gupta, Muhammad Shahbaz
-'''
-
-from mininet.topo import Topo
-
-class CustomTopo(Topo):
-    "Simple Data Center Topology"
-
-    "linkopts - (1:core, 2:aggregation, 3: edge) parameters"
-    "fanout - number of child switch per parent switch"
-    def __init__(self, linkopts1, linkopts2, linkopts3, fanout=2, **opts):
-        # Initialize topology and default options
-        Topo.__init__(self, **opts)
-        
-        # Add your logic here ...
-
-        
-                    
-topos = { 'custom': ( lambda: CustomTopo() ) }
-
-</pre>
-
 - <a href="https://github.com/syaifulahdan/mininet/blob/master/py-custop_tree_topology_with_Fanout2-submit.py">submit.py:</a>  used to submit your code and output to the course servers for grading. You don’t have to do any modifications in here.
 
 ##### CustomTopo.py
@@ -50,3 +22,21 @@ The skeleton class takes following arguments as input:
 - <b>Fanout</b>: to specify fanout value i.e., number of childs per node.
 
 Your logic should support setting at least bw and delay parameters for each link.
+
+####Submitting your Code
+
+To submit your code, run the submit.py script:
+<pre>
+$ sudo python submit.py
+</pre>
+Make sure that CustomTopo.py is in the same directory as submit.py. Your mininet VM should have internet access by default, but still verify that it has internet connectivity (i.e., eth0 set up as NAT). Otherwise submit.py will not be able to post your code and output to our course servers.
+The submission script will ask for your login and password. This password is not the general account password, but an assignment-specific password that is uniquely generated for each student. You can get this from the assignments listing page.
+Once finished, it will prompt the results on the terminal (either passed or failed). Note, if during the execution submit.py script crashes for some reason or you terminate it using CTRL+C, make sure to clean mininet environment using:
+<pre>
+$ sudo mn -c
+</pre>
+
+Also, if it still complains about the controller running. Execute the following command to kill it:
+<pre>
+$ sudo fuser -k 6633/tc
+</pre>
