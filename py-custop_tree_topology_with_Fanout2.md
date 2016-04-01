@@ -6,3 +6,9 @@ In this assignment, your task is to create a simple tree topology. You will assu
 configurable fanout value (k). For example, a simple tree network having a single layer per each level and a fanout of 2 looks like:
 
 <img src="https://github.com/syaifulahdan/mininet/blob/master/image/Screenshot%20from%202016-04-02%2002:44:01.png" align="center" title="syaifulahdan/mininet" />
+
+download consists of two files:
+
+
+<a href="https://github.com/syaifulahdan/mininet/blob/master/py-custop_tree_topology_with_Fanout2-custom_topo.py">custom-topo.py:</a> a sekleton class which you will update with the logic for creating the datacenter topology described above.
+<a href="https://github.com/syaifulahdan/mininet/blob/master/py-custop_tree_topology_with_Fanout2-submit.py">submit.py:</a>  used to submit your code and output to the course servers for grading. You don’t have to do any modifications in here.
