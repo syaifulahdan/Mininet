@@ -5,4 +5,4 @@ and links may be added to construct more complex tree topologies (e.g., fat tree
 In this assignment, your task is to create a simple tree topology. You will assume each level i.e., core, aggregation, edge and host to be composed of a single layer of switches/hosts with a
 configurable fanout value (k). For example, a simple tree network having a single layer per each level and a fanout of 2 looks like:
 
-<img src="https://github.com/syaifulahdan/mininet/blob/master/image/Screenshot%20from%202016-04-02%2002:44:01.png" width="400" height="500" align="center" title="syaifulahdan/mininet" />
+<img src="https://github.com/syaifulahdan/mininet/blob/master/image/Screenshot%20from%202016-04-02%2002:44:01.png" align="center" title="syaifulahdan/mininet" />
