@@ -1,4 +1,5 @@
-#####  Simple Tree Topology with Fanout 2
+#####  Simple Tree Topology with Fanout 2 (Professor: Nick Feamster)
+
 Data center networks typically have a tree-like topology. End-hosts connect to top-of-rack switches, which form the leaves (edges) of the tree; one or more core switches form the root;
 and one or more layers of aggregation switches form the middle of the tree. In a basic tree topology, each switch (except the core switch) has a single parent switch. Additional switches
 and links may be added to construct more complex tree topologies (e.g., fat tree) in an effort to improve fault tolerance or increase inter-rack bandwidth.
