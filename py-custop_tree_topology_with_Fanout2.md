@@ -36,7 +36,6 @@ class CustomTopo(Topo):
         
                     
 topos = { 'custom': ( lambda: CustomTopo() ) }
-
 </pre>
 
 - <a href="https://github.com/syaifulahdan/mininet/blob/master/py-custop_tree_topology_with_Fanout2-submit.py">submit.py:</a>  used to submit your code and output to the course servers for grading. You don’t have to do any modifications in here.
