@@ -15,7 +15,7 @@ download consists of two files:
 
 ##### CustomTopo.py
 The skeleton class takes following arguments as input:
-- linkopts1: for specifying performance parameters for the links between core and aggregation switches.
-- linkopts2: for specifying performance parameters for the links between aggregation and edge switches.
-- linkopts3: for specifying performance parameters for the links between edge switches and host.
-- Fanout: to specify fanout value i.e., number of childs per node.
+- <b>linkopts1</b>: for specifying performance parameters for the links between core and aggregation switches.
+- <b>linkopts2</b>: for specifying performance parameters for the links between aggregation and edge switches.
+- <b>linkopts3</b>: for specifying performance parameters for the links between edge switches and host.
+- <b>Fanout</b>: to specify fanout value i.e., number of childs per node.
