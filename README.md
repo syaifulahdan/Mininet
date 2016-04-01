@@ -10,7 +10,7 @@ Mininet is actively developed and supported, and is released under a permissive 
 
 Resource :
 
-http://mininet.org/blog/
-http://techandtrains.com/category/miniedit/
-http://www.brianlinkletter.com/
-http://www.cs.kent.edu/~mallouzi/Software%20Defined%20Networking/
+- http://mininet.org/blog/
+- http://techandtrains.com/category/miniedit/
+- http://www.brianlinkletter.com/
+- http://www.cs.kent.edu/~mallouzi/Software%20Defined%20Networking/
