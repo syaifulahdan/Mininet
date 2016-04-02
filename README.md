@@ -9,6 +9,8 @@ Resource :
 - http://techandtrains.com/category/miniedit/
 - http://www.brianlinkletter.com/
 - http://www.cs.kent.edu/~mallouzi/Software%20Defined%20Networking/
+- ssh mininet trouble : http://askubuntu.com/questions/497895/permission-denied-for-rootlocalhost-for-ssh-connection  
+
 
 Programming Assignment 2: Using Mininet and Mininet
 -  Linear Topology (without Performance Settings) 
