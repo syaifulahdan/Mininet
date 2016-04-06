@@ -30,4 +30,4 @@ Mininet is actively developed and supported, and is released under a permissive 
    -  [Create Custom Topology - 8 Host - 5 Switch (Python Source Code)](https://github.com/syaifulahdan/mininet/blob/master/mininet/py-mininet-custop_8host-5sw.py)
    -  [Create Custom Topology - Without mn](https://github.com/syaifulahdan/mininet/blob/master/mininet/py-mininet-custop_without_mn.md)
 
--  Final Project (by : Bpak. Eueung Mulyana) 
+-  Final Project [by : Bapak. Eueung Mulyana)](https://www.gitbook.com/@eueung) 
