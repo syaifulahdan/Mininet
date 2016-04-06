@@ -16,10 +16,11 @@ Mininet is actively developed and supported, and is released under a permissive 
    -  [Remote Mininet via SSH](https://github.com/syaifulahdan/mininet/blob/master/mininet/mininet-remote-via%20ssh.md)
    -  [How to Deactive Controller Openvswitch](https://github.com/syaifulahdan/mininet/blob/master/mininet/mininet-deactivate_openvswitch_controller.md)
 -  Exercise
-   -  [Create Custom Topology 2 Host-1 Swhitch (read) ](https://github.com/syaifulahdan/mininet/blob/master/mininet/mininet-create-custop-2h-1s.md)
-   -  [Create Custom Topology 2 Host-4  Switch (read)](https://github.com/syaifulahdan/mininet/blob/master/mininet/mininet-create-custop-4s-2h.md)
+   
    -  [Create Topology Fanout 32-depth 2 (read)](https://github.com/syaifulahdan/mininet/blob/master/mininet/mininet-create-fanout32-depth2.md)
    -  [Create Topology Fanout 5-depth 2 (read)](https://github.com/syaifulahdan/mininet/blob/master/mininet/mininet-create-topo-tree-fanout5-dept2.md)
    -  [Create Topology single Host-3  Switch (read)](https://github.com/syaifulahdan/mininet/blob/master/mininet/mininet-create_single_switch.md)
    -  [Create Topology single Host-4  Switch (read)](https://github.com/syaifulahdan/mininet/blob/master/mininet/mininet-create_single_topology-h4_s1.md)
-   -  [Create Custom TOpology 2 Host-4 Switch on Python (read)] (https://github.com/syaifulahdan/mininet/blob/master/mininet-custop.md)
+   -  [Create Custom Topology 2 Host-4 Switch on Python (read)] (https://github.com/syaifulahdan/mininet/blob/master/mininet-custop.md)
+-  [Create Custom Topology 2 Host-1 Swhitch (read) ](https://github.com/syaifulahdan/mininet/blob/master/mininet/mininet-create-custop-2h-1s.md)
+   -  [Create Custom Topology 2 Host-4  Switch (read)](https://github.com/syaifulahdan/mininet/blob/master/mininet/mininet-create-custop-4s-2h.md)
