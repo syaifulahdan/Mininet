@@ -17,3 +17,4 @@ Mininet is actively developed and supported, and is released under a permissive 
 -  Exercise
    -  [Create Custom Topology 2 Host-1 Swhitch (read) ](https://github.com/syaifulahdan/mininet/blob/master/mininet/mininet-create-custop-2h-1s.md)
    -  [Create Custom Topology 2 Host-4  Switch (read)](https://github.com/syaifulahdan/mininet/blob/master/mininet/mininet-create-custop-4s-2h.md)
+   -  [Create Custom Topology Fanout32-depth2 (read)](https://github.com/syaifulahdan/mininet/blob/master/mininet/mininet-create-fanout32-depth2.md)
