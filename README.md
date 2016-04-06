@@ -17,6 +17,6 @@ Mininet is actively developed and supported, and is released under a permissive 
 -  Exercise
    -  [Create Custom Topology 2 Host-1 Swhitch (read) ](https://github.com/syaifulahdan/mininet/blob/master/mininet/mininet-create-custop-2h-1s.md)
    -  [Create Custom Topology 2 Host-4  Switch (read)](https://github.com/syaifulahdan/mininet/blob/master/mininet/mininet-create-custop-4s-2h.md)
-   -  [Create Custom Topology Fanout 32-depth 2 (read)](https://github.com/syaifulahdan/mininet/blob/master/mininet/mininet-create-fanout32-depth2.md)
-   -  [Create Custom Topology Fanout 5-depth 2 (read)](https://github.com/syaifulahdan/mininet/blob/master/mininet/mininet-create-topo-tree-fanout5-dept2.md)
+   -  [Create Topology Fanout 32-depth 2 (read)](https://github.com/syaifulahdan/mininet/blob/master/mininet/mininet-create-fanout32-depth2.md)
+   -  [Create Topology Fanout 5-depth 2 (read)](https://github.com/syaifulahdan/mininet/blob/master/mininet/mininet-create-topo-tree-fanout5-dept2.md)
    -  [Create Topology single Host-3  Switch (read)](https://github.com/syaifulahdan/mininet/blob/master/mininet/mininet-create_single_switch.md)
