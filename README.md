@@ -16,4 +16,4 @@ Mininet is actively developed and supported, and is released under a permissive 
    -  [Remote Mininet via SSH](https://github.com/syaifulahdan/mininet/blob/master/mininet/mininet-remote-via%20ssh.md)
 -  Exercise
    -  [Create Custom Topology 2 Host-1 Swhitch (read) ](https://github.com/syaifulahdan/mininet/blob/master/mininet/mininet-create-custop-2h-1s.md)
-   -  [Create Custom Topology 2 Host-4 Switch](https://github.com/syaifulahdan/mininet/blob/master/mininet-create-custop-4s-2h.md)
+   -  [Create Custom Topology 2 Host-4 (read) Switch](https://github.com/syaifulahdan/mininet/blob/master/mininet/mininet-create-custop-4s-2h.md)
