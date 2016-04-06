@@ -19,4 +19,4 @@ Resource :
 
 -  Programming Assignment [[open]](https://github.com/syaifulahdan/mininet/tree/master/Assignment-SDN)
 -  Mininet
-   -  [[Mininet Variable]](https://github.com/syaifulahdan/mininet/tree/master/mininet)
+   -  [[Mininet Variable]](https://github.com/syaifulahdan/mininet/blob/master/mininet/read-mininet-varible.md)
