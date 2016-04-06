@@ -21,3 +21,4 @@ Resource :
 -  Mininet
    -  [Mininet Variable](https://github.com/syaifulahdan/mininet/blob/master/mininet/read-mininet-varible.md)
    -  [Change IP Host](https://github.com/syaifulahdan/mininet/blob/master/mininet/mininet-change_ip_host.md)
+   -  [Remote Mininet via SSH](https://github.com/syaifulahdan/mininet/blob/master/mininet/mininet-remote-via%20ssh.md)
