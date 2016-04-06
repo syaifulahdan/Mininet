@@ -26,3 +26,4 @@ Mininet is actively developed and supported, and is released under a permissive 
    -  [Create Custom Topology - 2 Host-1 Swhitch (read)](https://github.com/syaifulahdan/mininet/blob/master/mininet/mininet-create-custop-2h-1s.md)
    -  [Create Custom Topology - 2 Host-4  Switch(read)](https://github.com/syaifulahdan/mininet/blob/master/mininet/mininet-create-custop-4s-2h.md)
    -  [Create Custom Topology - Tree Topology with Fanout 2 (python Source Code) ](https://github.com/syaifulahdan/mininet/blob/master/mininet/py-custop_tree_topology_with_Fanout2-submit.py)
+   -  [Create Custom Topology - Tree Topology with Fanout 2 (read)](https://github.com/syaifulahdan/mininet/blob/master/mininet/py-custop_tree_topology_with_Fanout2.md)
