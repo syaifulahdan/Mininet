@@ -1,4 +1,4 @@
-<img src="https://github.com/syaifulahdan/mininet/blob/master/image/12647297_10206126871636832_6324690566074168245_n.jpg" width="50px" height="60px" alt="syaiful ahdan" />
+<img src="https://github.com/syaifulahdan/mininet/blob/master/image/12647297_10206126871636832_6324690566074168245_n.jpg" width="55px" height="60px" alt="syaiful ahdan" />
 
 
 ##### Introduction
