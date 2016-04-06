@@ -15,6 +15,7 @@ Mininet is actively developed and supported, and is released under a permissive 
    -  [Change IP Host](https://github.com/syaifulahdan/mininet/blob/master/mininet/mininet-change_ip_host.md)
    -  [Remote Mininet via SSH](https://github.com/syaifulahdan/mininet/blob/master/mininet/mininet-remote-via%20ssh.md)
    -  [How to Deactive Controller Openvswitch](https://github.com/syaifulahdan/mininet/blob/master/mininet/mininet-deactivate_openvswitch_controller.md)
+   -  [How to start instruction to running controller](https://github.com/syaifulahdan/mininet/blob/master/mininet/mininet-start-stop-controller.md)
 -  Exercise
    
    -  [Create Topology Fanout 32-depth 2 (read)](https://github.com/syaifulahdan/mininet/blob/master/mininet/mininet-create-fanout32-depth2.md)
