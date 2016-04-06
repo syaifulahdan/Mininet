@@ -20,3 +20,4 @@ Resource :
 -  Programming Assignment [[open]](https://github.com/syaifulahdan/mininet/tree/master/Assignment-SDN)
 -  Mininet
    -  [[Mininet Variable]](https://github.com/syaifulahdan/mininet/blob/master/mininet/read-mininet-varible.md)
+   -  [[Change IP Host]] (https://github.com/syaifulahdan/mininet/blob/master/mininet/mininet-change_ip_host.md)
