@@ -10,7 +10,7 @@
 -  Allows multiple tenants to use the same physical network
 
 
-### <b>Create Mininet Topology</b>
+### <b>1.Create Mininet Topology</b>
 <b>sudo mn --topo=linear,4 --arp --mac --controller=remote</b>
 
 <pre>
@@ -35,3 +35,58 @@ s1 s2 s3 s4 ...
 mininet> 
 
 </pre>
+
+open new Terminal
+### <b>Check the nodes and links from flowvisor</b>
+
+<pre>
+bertopeng17@bertopeng17-ThinkPad-T520:~$ <b>cd flowvisor && make</b>
+ant
+Error: JAVA_HOME is not defined correctly.
+  We cannot execute /usr/lib/jvm/java-7-openjdk-amd64/bin/java
+make: *** [all] Error 1
+bertopeng17@bertopeng17-ThinkPad-T520:~/flowvisor$
+bertopeng17@bertopeng17-ThinkPad-T520:~/flowvisor$ <b>fvctl list-datapaths</b>
+Password: <b>123456789</b>
+Connected switches: 
+  1 : 00:00:00:00:00:00:00:01
+  2 : 00:00:00:00:00:00:00:02
+  3 : 00:00:00:00:00:00:00:03
+  4 : 00:00:00:00:00:00:00:04
+  
+bertopeng17@bertopeng17-ThinkPad-T520:~/flowvisor$ <b>fvctl list-links</b>
+Password: <b>123456789</b>
+[
+  {
+    "attributes": "fakeLink=true", 
+    "dstDPID": "00:00:00:00:00:00:00:04", 
+    "dstPort": "1", 
+    "srcDPID": "00:00:00:00:00:00:00:03", 
+    "srcPort": "0"
+  }, 
+  {
+    "attributes": "fakeLink=true", 
+    "dstDPID": "00:00:00:00:00:00:00:02", 
+    "dstPort": "1", 
+    "srcDPID": "00:00:00:00:00:00:00:04", 
+    "srcPort": "0"
+  }, 
+  {
+    "attributes": "fakeLink=true", 
+    "dstDPID": "00:00:00:00:00:00:00:01", 
+    "dstPort": "1", 
+    "srcDPID": "00:00:00:00:00:00:00:02", 
+    "srcPort": "0"
+  }, 
+  {
+    "attributes": "fakeLink=true", 
+    "dstDPID": "00:00:00:00:00:00:00:03", 
+    "dstPort": "1", 
+    "srcDPID": "00:00:00:00:00:00:00:01", 
+    "srcPort": "0"
+  }
+]
+bertopeng17@bertopeng17-ThinkPad-T520:~/flowvisor$ 
+  
+</pre>
+
