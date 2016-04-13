@@ -19,13 +19,14 @@ Mininet is actively developed and supported, and is released under a permissive 
 
 - [Mininet Source Link]( https://github.com/syaifulahdan/mininet/blob/master/mininet/source-link.md)
 - <b>Mininet</b>
-   -  [Mininet Instalation](https://github.com/syaifulahdan/mininet/blob/master/mininet/mininet-installation.md)
-   -  [Mininet Variable](https://github.com/syaifulahdan/mininet/blob/master/mininet/read-mininet-varible.md)
-   -  [Change IP Host](https://github.com/syaifulahdan/mininet/blob/master/mininet/mininet-change_ip_host.md)
-   -  [Remote Mininet via SSH](https://github.com/syaifulahdan/mininet/blob/master/mininet/mininet-remote-via%20ssh.md)
-   -  [How to Deactive Controller Openvswitch](https://github.com/syaifulahdan/mininet/blob/master/mininet/mininet-deactivate_openvswitch_controller.md)
-   -  [How to start instruction to running controller](https://github.com/syaifulahdan/mininet/blob/master/mininet/mininet-start-stop-controller.md)
--  Exercise
+   -  Mininet Instalation | [[read]] (https://github.com/syaifulahdan/mininet/blob/master/mininet/mininet-installation.md)
+   -  Mininet Variable | [[read]] (https://github.com/syaifulahdan/mininet/blob/master/mininet/read-mininet-varible.md)
+   -  Change IP Host | [[read]] (https://github.com/syaifulahdan/mininet/blob/master/mininet/mininet-change_ip_host.md)
+   -  Remote Mininet via SSH | [[read]] (https://github.com/syaifulahdan/mininet/blob/master/mininet/mininet-remote-via%20ssh.md)
+   -  How to Deactive Controller Openvswitch | [[read]] (https://github.com/syaifulahdan/mininet/blob/master/mininet/mininet-deactivate_openvswitch_controller.md)
+   -  How to start instruction to running controller | [[read]] (https://github.com/syaifulahdan/mininet/blob/master/mininet/mininet-start-stop-controller.md)
+
+-  <b>Exercise</b>
    
    -  Create Topology Fanout 32-depth 2 | [[read]] (https://github.com/syaifulahdan/mininet/blob/master/mininet/mininet-create-fanout32-depth2.md)
    -  Create Topology Fanout 5-depth 2 | [[read]] (https://github.com/syaifulahdan/mininet/blob/master/mininet/mininet-create-topo-tree-fanout5-dept2.md)
