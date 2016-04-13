@@ -200,8 +200,17 @@ bertopeng17@bertopeng17-ThinkPad-T520:~/flowvisor$
 ### <b>FlowVisor Configuration<b>
 -  Load the configuration file <b>sudo fvconfig load /etc/flowvisor/config.json</b>
 <pre>
-bertopeng17@bertopeng17-ThinkPad-T520:~$ sudo fvconfig load /etc/flowvisor/config.json 
+bertopeng17@bertopeng17-ThinkPad-T520:~$ <b>sudo fvconfig load /etc/flowvisor/config.json </b>
 bertopeng17@bertopeng17-ThinkPad-T520:~$ 
+
+- <b>Stop any running OpenFlow controller</b> and <b>Start flowvisor</b>
+<pre>bertopeng17@bertopeng17-ThinkPad-T520:~$ <b>sudo /etc/init.d/flowvisor stop</b>
+</pre>
+- <b>Enable topology controller</b>
+ 
+<pre>
+bertopeng17@bertopeng17-ThinkPad-T520:~$ <b>fvctl set-config --enable-topo-ctrl</b>
+Password: 
 
 </pre>
 
