@@ -14,7 +14,5 @@ bertopeng17@bertopeng17-ThinkPad-T520:~$ <b>sudo apt-get install mininet</b>
   </pre>  
 
 - Start Mininet
-  - Starting without any parameter creates a single switch topology with two hosts connected with it and opens mininet console. 
-  - sudo mn
-  - To view information about hosts and network use the following commands 
-  - nodes, net, dump
+  - Starting without any parameter creates a single switch topology with two hosts connected with it and opens mininet console. <b>sudo mn</b>
+  - To view information about hosts and network use the following commands <b>nodes, net, dump</b>
