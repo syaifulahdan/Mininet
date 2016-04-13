@@ -10,7 +10,7 @@
 -  Allows multiple tenants to use the same physical network
 
 ### <b>FlowVisor Installation</b>
--  Download flowvisor : git clone git://github.com/OPENNETWORKINGLAB/flowvisor.git
+-  <b>Download flowvisor : git clone git://github.com/OPENNETWORKINGLAB/flowvisor.git</b>
 <pre>
 bertopeng17@bertopeng17-ThinkPad-T520:~$ <b>git clone git://github.com/OPENNETWORKINGLAB/flowvisor.git</b>
 Cloning into 'flowvisor'...
@@ -22,7 +22,7 @@ Checking connectivity... done.
 bertopeng17@bertopeng17-ThinkPad-T520:~$ 
 </pre>
 
-- sudo apt-get install ant default-jdk build-essential
+- <b>sudo apt-get install ant default-jdk build-essential</b>
 <pre>
 bertopeng17@bertopeng17-ThinkPad-T520:~$ <b>sudo apt-get install ant default-jdk build-essential</b>
 [sudo] password for bertopeng17: 
