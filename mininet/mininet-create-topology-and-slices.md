@@ -3,6 +3,15 @@
 
 ![alt img](https://github.com/syaifulahdan/mininet/blob/master/image/Screenshot%20from%202016-04-13%2012:19:29.png)
 
+
+
+###### FlowVisor
+-  A special OpenFlow controller that can slice the network
+-  Allows multiple tenants to use the same physical network
+
+###### FlowVisor Installation
+-  Download flowvisor : git clone git://github.com/OPENNETWORKINGLAB/flowvisor.git
+
 ###### Create Mininet Topology
 <b>sudo mn --topo=linear,4 --arp --mac --controller=remote</b>
 
