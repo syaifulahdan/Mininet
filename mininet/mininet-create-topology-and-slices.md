@@ -110,7 +110,17 @@ Setting up libalgorithm-diff-xs-perl (0.04-2build4) ...
 Setting up libalgorithm-merge-perl (0.08-2) ...
 W: Duplicate sources.list entry http://dl.google.com/linux/chrome/deb/ stable/main i386 Packages (/var/lib/apt/lists/dl.google.com_linux_chrome_deb_dists_stable_main_binary-i386_Packages)
 W: You may want to run apt-get update to correct these problems
+</pre>
 
+-  <b>Build</b>
+    cd flowvisor && make
+<pre>
+bertopeng17@bertopeng17-ThinkPad-T520:~$ cd flowvisor && make
+ant
+Error: JAVA_HOME is not defined correctly.
+  We cannot execute /usr/lib/jvm/java-7-openjdk-amd64/bin/java
+make: *** [all] Error 1
+bertopeng17@bertopeng17-ThinkPad-T520:~/flowvisor$ 
 </pre>
 
 ### <b>Create Mininet Topology</b>
