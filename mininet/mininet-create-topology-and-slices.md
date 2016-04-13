@@ -125,6 +125,31 @@ bertopeng17@bertopeng17-ThinkPad-T520:~/flowvisor$
 
 -  <b>Install</b>
 <pre>
+bertopeng17@bertopeng17-ThinkPad-T520:~/flowvisor$ sudo make install
+ant
+Buildfile: /home/bertopeng17/flowvisor/build.xml
+
+init:
+    [mkdir] Created dir: /home/bertopeng17/flowvisor/build
+    [mkdir] Created dir: /home/bertopeng17/flowvisor/build.tests
+
+compile:
+    [javac] /home/bertopeng17/flowvisor/build.xml:60: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 241 source files to /home/bertopeng17/flowvisor/build
+    [javac] Note: /home/bertopeng17/flowvisor/src/org/flowvisor/config/LoadConfig.java uses or overrides a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: /home/bertopeng17/flowvisor/src/org/flowvisor/api/handlers/configuration/ListFlowSpace.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+
+dist:
+    [mkdir] Created dir: /home/bertopeng17/flowvisor/dist
+      [jar] Building jar: /home/bertopeng17/flowvisor/dist/flowvisor.jar
+
+BUILD SUCCESSFUL
+Total time: 5 seconds
+./scripts/install-script.sh 
+Using source dir: ./scripts/..
+Installation prefix (/usr/local): 
 
 </pre>
 
