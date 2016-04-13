@@ -150,7 +150,7 @@ Total time: 5 seconds
 ./scripts/install-script.sh 
 Using source dir: ./scripts/..
 Installation prefix (/usr/local): 
-</b>
+</pre>
 
 ### <b>Create Mininet Topology</b>
 <b>sudo mn --topo=linear,4 --arp --mac --controller=remote</b>
