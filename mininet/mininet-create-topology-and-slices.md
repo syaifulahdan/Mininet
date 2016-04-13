@@ -214,6 +214,41 @@ Password:
 
 </pre>
 
+- <b>Check configuration</b>
+<pre>
+bertopeng17@bertopeng17-ThinkPad-T520:~$ <b>fvctl get-config</b>
+Password: <b>123456789</b>
+{
+  "api_jetty_webserver_port": 8081, 
+  "api_webserver_port": 8080, 
+  "checkpointing": false, 
+  "config_name": "default", 
+  "db_version": "2", 
+  "enable-topo-ctrl": false, 
+  "flood-perm": {
+    "dpid": "all", 
+    "slice-name": "fvadmin"
+  }, 
+  "flow-stats-cache": 30, 
+  "flowmod-limit": {
+    "fvadmin": {
+      "00:00:00:00:00:00:00:03": -1, 
+      "00:00:00:00:00:00:00:04": -1, 
+      "any": null
+    }
+  }, 
+  "host": "localhost", 
+  "log_facility": "LOG_LOCAL7", 
+  "log_ident": "flowvisor", 
+  "logging": "NOTE", 
+  "stats-desc": false, 
+  "track-flows": false, 
+  "version": "flowvisor-1.4.0"
+}
+bertopeng17@bertopeng17-ThinkPad-T520:~$ 
+
+</pre>
+
 ### <b>Create Mininet Topology</b>
 <b>sudo mn --topo=linear,4 --arp --mac --controller=remote</b>
 
