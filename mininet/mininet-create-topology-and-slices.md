@@ -150,6 +150,41 @@ bertopeng17@bertopeng17-ThinkPad-T520:~/flowvisor$
   ./scripts/install-script.sh 
   Using source dir: ./scripts/..
   Installation prefix (/usr/local): 
+    FlowVisor User (needs to already exist, 'flowvisor' does not exist) (flowvisor): <b>bertopeng17</b>
+    FlowVisor Group (needs to already exist) (flowvisor): bertopeng17
+    Install to different root directory () 
+    Installing FlowVisor into /usr/local with prefix=/usr/local as user/group bertopeng17:<b>bertopeng17</b>
+    Updating fvctl-xml.sh to fvctl-xml
+    Updating fvconfig.sh to fvconfig
+    Updating flowvisor.sh to flowvisor
+    Updating envs.sh to envs
+    Creating directories
+    Creating /usr/local/bin
+    Creating /usr/local/sbin
+    Creating /usr/local/libexec/flowvisor
+    Creating /usr/local/share/man/man1
+    Creating /usr/local/share/man/man8
+    Creating /usr/local/share/doc/flowvisor
+    Creating /usr/local/share/db/flowvisor
+    Creating /var/log/flowvisor
+    Creating /etc/flowvisor (owned by user=bertopeng17  group=<b>bertopeng17)</b>
+    Installing scripts
+    Installing SYSV startup script (not enabled by default)
+    Installing jars
+    Installing flowvisor.jar
+    Installing manpages
+    Installing FlowVisorDB
+    Installing configs
+    Installing Logrotate config
+    Installing documentation
+    Linking fvctl to fvctl-json
+    Generating a default config FlowVisor config
+    Trying to generate SSL Server Key with passwd from scripts/envs.sh
+    Generating cert with common name == bertopeng17-ThinkPad-T520
+    Enter password for account 'fvadmin' on the flowvisor:<b>123456789</b>
+    Generating default config in db
+    Outputing config file /etc/flowvisor/config.json
+    bertopeng17@bertopeng17-ThinkPad-T520:~/flowvisor$ ls
 
 </pre>
 
