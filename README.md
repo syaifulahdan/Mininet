@@ -14,8 +14,8 @@ Mininet is actively developed and supported, and is released under a permissive 
    -  Assignment2: Using Mininet and Mininet Python API: Instructions [read](https://github.com/syaifulahdan/mininet/blob/master/Assignment-SDN/Assignment2.pdf) | [[discussion and source code]](https://github.com/syaifulahdan/mininet/tree/master/Assignment-SDN/Assignment-2) 
    -  Assignment3: Programming a Simple Controller: Instructions [read](https://github.com/syaifulahdan/mininet/blob/master/Assignment-SDN/Assignment3.pdf) | [[discussion and source code]](https://github.com/syaifulahdan/mininet/tree/master/Assignment-SDN/Assignment-3)
    -  Assignment4: Network Virtualization: Instructions [read](https://github.com/syaifulahdan/mininet/blob/master/Assignment-SDN/Assignment4.pdf) | [[discussion and source code]](https://github.com/syaifulahdan/mininet/tree/master/Assignment-SDN/Assignment-4)
-   -  Assignment5: Network Assembly: Instructions [read](https://github.com/syaifulahdan/mininet/blob/master/Assignment-SDN/Assignment5.pdf) | [[discussion and source code]](https://github.com/syaifulahdan/mininet/tree/master/Assignment-SDN/Assignment-5)
-   -  Assignment6: Software Defined Internet Exchange Points: Instructions[read](https://github.com/syaifulahdan/mininet/blob/master/Assignment-SDN/Assignment6.pdf) | [[discussion and source code]](https://github.com/syaifulahdan/mininet/tree/master/Assignment-SDN/Assignment-6)
+   -  Assignment5: Network Assembly: Instructions | [read](https://github.com/syaifulahdan/mininet/blob/master/Assignment-SDN/Assignment5.pdf) | [[discussion and source code]](https://github.com/syaifulahdan/mininet/tree/master/Assignment-SDN/Assignment-5)
+   -  Assignment6: Software Defined Internet Exchange Points: Instructions | [read](https://github.com/syaifulahdan/mininet/blob/master/Assignment-SDN/Assignment6.pdf) | [[discussion and source code]](https://github.com/syaifulahdan/mininet/tree/master/Assignment-SDN/Assignment-6)
 
 - [Mininet Source Link]( https://github.com/syaifulahdan/mininet/blob/master/mininet/source-link.md)
 - <b>Mininet</b>
@@ -38,4 +38,4 @@ Mininet is actively developed and supported, and is released under a permissive 
    -  [Create Custom Topology - 8 Host - 5 Switch (Python Source Code)](https://github.com/syaifulahdan/mininet/blob/master/mininet/py-mininet-custop_8host-5sw.py)
    -  [Create Custom Topology - Without mn](https://github.com/syaifulahdan/mininet/blob/master/mininet/py-mininet-custop_without_mn.md)
 
--  Final Project [Bapak. Eueung Mulyana) [Read](https://github.com/syaifulahdan/mininet/tree/master/finalp-ppj) 
+-  Final Project (Bapak. Eueung Mulyana) |[Read](https://github.com/syaifulahdan/mininet/tree/master/finalp-ppj) 
