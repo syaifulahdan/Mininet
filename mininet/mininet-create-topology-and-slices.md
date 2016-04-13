@@ -198,8 +198,12 @@ bertopeng17@bertopeng17-ThinkPad-T520:~/flowvisor$
  </pre>
 
 ### <b>FlowVisor Configuration<b>
+-  Load the configuration file <b>sudo fvconfig load /etc/flowvisor/config.json</b>
+<pre>
+bertopeng17@bertopeng17-ThinkPad-T520:~$ sudo fvconfig load /etc/flowvisor/config.json 
+bertopeng17@bertopeng17-ThinkPad-T520:~$ 
 
-
+</pre>
 
 ### <b>Create Mininet Topology</b>
 <b>sudo mn --topo=linear,4 --arp --mac --controller=remote</b>
