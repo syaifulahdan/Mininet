@@ -2,3 +2,6 @@
 ###### Create Topology and Slices
 
 ![alt img](https://github.com/syaifulahdan/mininet/blob/master/image/Screenshot%20from%202016-04-13%2012:19:29.png)
+
+###### Create Mininet Topology
+<b>sudo mn --topo=linear,4 --arp --mac --controller=remote</b>
