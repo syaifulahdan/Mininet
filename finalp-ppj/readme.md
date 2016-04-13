@@ -7,11 +7,13 @@
 - 4 host ,  2 switch , 1 controller
 
 ##### Controller (C1 & C2)
+
+
 - h1 : simpleHTTPServer
 - h2 : client (Curl)
 - h3 : client (curl)
 - h4 : simpleHTTPServer
-- 
+
 #####base l2_learn.py
 
 
