@@ -11,6 +11,16 @@
 
 ### <b>FlowVisor Installation</b>
 -  Download flowvisor : git clone git://github.com/OPENNETWORKINGLAB/flowvisor.git
+<pre>
+bertopeng17@bertopeng17-ThinkPad-T520:~$ git clone git://github.com/OPENNETWORKINGLAB/flowvisor.git
+Cloning into 'flowvisor'...
+remote: Counting objects: 6356, done.
+remote: Total 6356 (delta 0), reused 0 (delta 0), pack-reused 6356
+Receiving objects: 100% (6356/6356), 8.67 MiB | 484.00 KiB/s, done.
+Resolving deltas: 100% (3823/3823), done.
+Checking connectivity... done.
+bertopeng17@bertopeng17-ThinkPad-T520:~$ 
+<?pre>
 
 ### <b>Create Mininet Topology</b>
 <b>sudo mn --topo=linear,4 --arp --mac --controller=remote</b>
