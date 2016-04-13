@@ -1,4 +1,4 @@
-######<b>install-requirement-vlan-md</b>
+####  <b>install-requirement-vlan-md</b>
 
 [Need to do first]
 
@@ -58,6 +58,13 @@ Preparing to unpack .../vlan_1.9-3ubuntu10_i386.deb ...
 Unpacking vlan (1.9-3ubuntu10) ...
 Processing triggers for man-db (2.6.7.1-1ubuntu1) ...
 Setting up vlan (1.9-3ubuntu10) ...
+bertopeng17@bertopeng17-ThinkPad-T520:~$ 
+</pre>
+
+<b>3. sudo modprobe 8021q</b>
+
+<pre>
+bertopeng17@bertopeng17-ThinkPad-T520:~$ sudo modprobe 8021q
 bertopeng17@bertopeng17-ThinkPad-T520:~$ 
 
 </pre>
