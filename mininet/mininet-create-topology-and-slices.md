@@ -12,7 +12,7 @@
 ### <b>FlowVisor Installation</b>
 -  Download flowvisor : git clone git://github.com/OPENNETWORKINGLAB/flowvisor.git
 <pre>
-bertopeng17@bertopeng17-ThinkPad-T520:~$ git clone git://github.com/OPENNETWORKINGLAB/flowvisor.git
+bertopeng17@bertopeng17-ThinkPad-T520:~$ <b>git clone git://github.com/OPENNETWORKINGLAB/flowvisor.git</b>
 Cloning into 'flowvisor'...
 remote: Counting objects: 6356, done.
 remote: Total 6356 (delta 0), reused 0 (delta 0), pack-reused 6356
