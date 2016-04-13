@@ -1,4 +1,4 @@
-######install-requirement-vlan-md
+######<b>install-requirement-vlan-md</b>
 
 [Need to do first]
 
@@ -7,9 +7,9 @@
 3. sudo modprobe 8021q
 
 
-######1. sudo apt-get install bridge-utils
+<b>1. sudo apt-get install bridge-utils</b>
 <pre>
-bertopeng17@bertopeng17-ThinkPad-T520:~$ sudo apt-get install bridge-utils
+bertopeng17@bertopeng17-ThinkPad-T520:~$ <b>sudo apt-get install bridge-utils</b>
 [sudo] password for bertopeng17: 
 Reading package lists... Done
 Building dependency tree       
