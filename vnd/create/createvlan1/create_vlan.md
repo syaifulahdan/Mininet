@@ -42,7 +42,7 @@ HTTP request sent, awaiting response... 404 Categoria não encontrada
    bertopeng17@bertopeng17-ThinkPad-T520:~/mininet/mininet/examples$ <b>./mininetCode81848.sh </b>
    *** Mininet must run as root.
    bertopeng17@bertopeng17-ThinkPad-T520:~/mininet/mininet/examples$ sudo ./mininetCode81848.sh 
-   [sudo] password for bertopeng17:<b>*********<</b> 
+   [sudo] password for bertopeng17:<b>*********</b> 
    *** Creating nodes
    *** Creating links
    *** Starting network
