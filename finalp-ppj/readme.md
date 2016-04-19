@@ -2,7 +2,7 @@
 
 ![alt img](https://github.com/syaifulahdan/mininet/blob/master/finalp-ppj/image/IMG_20160406_090639.jpg)
 
-##### Controller C
+##### Controller C - [[Test VLAN1]](https://github.com/syaifulahdan/mininet/blob/master/vnd/create/createvlan1/create_vlan.md)
 - Create VLAN (VLAN1 and VLAN2)
 - 4 host ,  2 switch , 1 controller
 
