@@ -63,7 +63,7 @@ HTTP request sent, awaiting response... 404 Categoria não encontrada
 
    </pre>
    
-   <Pre>
+   <pre>
    mininet> <b>dump</b>
    <Host h1: h1-eth0:10.0.0,10 pid=8473> 
    <Host h2: h2-eth0:10.0.0.20 pid=8475> 
