@@ -7,7 +7,7 @@
 
 2. Save toplogy : File > Export > Export to Mininet > Download .   file name : [[mininetCode81848.sh]](https://github.com/syaifulahdan/mininet/blob/master/vnd/create/createvlan1/mininetCode81848.sh)
 
-3. Save toplogy : File > Export > Export to openflow Controller > Download .   file name : [[https://github.com/syaifulahdan/mininet/blob/master/vnd/create/createvlan1/controllerCode915.sh)
+3. Save topology : File > Export > Export to openflow Controller > Download .   file name : [[controllerCode915.sh]](https://github.com/syaifulahdan/mininet/blob/master/vnd/create/createvlan1/controllerCode915.sh)
 
 
 
