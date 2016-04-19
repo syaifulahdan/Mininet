@@ -55,5 +55,11 @@ HTTP request sent, awaiting response... 404 Categoria não encontrada
    
    ![alt img](https://github.com/syaifulahdan/mininet/blob/master/vnd/image/Screenshot%20from%202016-04-20%2003:41:02.png)
 
-   
+   <pre>
+   mininet> <b>nodes</b>
+   available nodes are: 
+   c7 h1 h2 h3 h4 s5 s6
+   mininet> 
+
+   </pre>
 4. 
