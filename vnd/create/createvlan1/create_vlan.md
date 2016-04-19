@@ -74,4 +74,55 @@ HTTP request sent, awaiting response... 404 Categoria não encontrada
       Controller c7: 127.0.0.1:6633 pid=8492
       mininet> 
    </pre>
-4. 
+   
+4. Generate code controllerCode915.sh to POX controler 
+   
+   copy controllerCode915.sh to direcotry pox/ext :
+   <pre>
+   root@bertopeng17-ThinkPad-T520:~/pox/ext# <b>chmod +x controllerCode915.py </b>
+   root@bertopeng17-ThinkPad-T520:~/pox/ext# <b>chmod +X controllerCode915.py </b>
+   root@bertopeng17-ThinkPad-T520:~/pox/ext# <b>ls</b>
+   controllerCode915.py  README  skeleton.py
+   root@bertopeng17-ThinkPad-T520:~/pox/ext# <b>nano controllerCode915.py </b>
+   root@bertopeng17-ThinkPad-T520:~/pox/ext# <b>cd ..</b>
+   root@bertopeng17-ThinkPad-T520:~/pox# <b>./pox.py controllerCode915</b>
+   POX 0.2.0 (carp) / Copyright 2011-2013 James McCauley, et al.
+   INFO:controllerCode915:*** Starting... ***
+   INFO:controllerCode915:*** Waiting for switches to connect.. ***
+   INFO:core:POX 0.2.0 (carp) is up.
+   ERROR:openflow.of_01:Error 98 while binding socket: Address already in use
+   ERROR:openflow.of_01: You may have another controller running.
+   ERROR:openflow.of_01: Use openflow.of_01 --port=<port> to run POX on another port.
+   INFO:controllerCode915:    *** Installing static flows... ***
+   WARNING:openflow:Couldn't send to 00-00-00-00-00-05 because we're not connected to it!
+   WARNING:openflow:Couldn't send to 00-00-00-00-00-05 because we're not connected to it!
+   WARNING:openflow:Couldn't send to 00-00-00-00-00-06 because we're not connected to it!
+   WARNING:openflow:Couldn't send to 00-00-00-00-00-06 because we're not connected to it!
+   WARNING:openflow:Couldn't send to 00-00-00-00-00-05 because we're not connected to it!
+   WARNING:openflow:Couldn't send to 00-00-00-00-00-05 because we're not connected to it!
+   WARNING:openflow:Couldn't send to 00-00-00-00-00-06 because we're not connected to it!
+   WARNING:openflow:Couldn't send to 00-00-00-00-00-06 because we're not connected to it!
+   INFO:controllerCode915:    *** Static flows installed. ***
+   ^CINFO:core:Going down...
+   INFO:core:Down.
+   root@bertopeng17-ThinkPad-T520:~/pox# ./pox.py controllerCode915
+   POX 0.2.0 (carp) / Copyright 2011-2013 James McCauley, et al.
+   INFO:controllerCode915:*** Starting... ***
+   INFO:controllerCode915:*** Waiting for switches to connect.. ***
+   INFO:core:POX 0.2.0 (carp) is up.
+   ERROR:openflow.of_01:Error 98 while binding socket: Address already in use
+   ERROR:openflow.of_01: You may have another controller running.
+   ERROR:openflow.of_01: Use openflow.of_01 --port=<port> to run POX on another port.
+   INFO:controllerCode915:    *** Installing static flows... ***
+   WARNING:openflow:Couldn't send to 00-00-00-00-00-05 because we're not connected to it!
+   WARNING:openflow:Couldn't send to 00-00-00-00-00-05 because we're not connected to it!
+   WARNING:openflow:Couldn't send to 00-00-00-00-00-06 because we're not connected to it!
+   WARNING:openflow:Couldn't send to 00-00-00-00-00-06 because we're not connected to it!
+   WARNING:openflow:Couldn't send to 00-00-00-00-00-05 because we're not connected to it!
+   WARNING:openflow:Couldn't send to 00-00-00-00-00-05 because we're not connected to it!
+   WARNING:openflow:Couldn't send to 00-00-00-00-00-06 because we're not connected to it!
+   WARNING:openflow:Couldn't send to 00-00-00-00-00-06 because we're not connected to it!
+   INFO:controllerCode915:    *** Static flows installed. ***
+
+   </pre>
+5. 
