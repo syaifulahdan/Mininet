@@ -48,6 +48,5 @@ Mininet is actively developed and supported, and is released under a permissive 
 -  <b>VND - Virtual Network Description</b> |[[read]](https://github.com/syaifulahdan/POX/tree/master/vnd)
  
 
--  Final Project (
--  PPPJ) |[Read](https://github.com/syaifulahdan/mininet/tree/master/finalp-ppj) 
+-  Final Project PPPJ |[Read](https://github.com/syaifulahdan/mininet/tree/master/finalp-ppj) 
    
