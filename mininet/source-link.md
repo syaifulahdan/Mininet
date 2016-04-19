@@ -8,4 +8,5 @@
 - ssh mininet trouble :http://askubuntu.com/questions/497895/permission-denied-for-rootlocalhost-for-ssh-connection
 - The mininet-discuss Archives :https://mailman.stanford.edu/pipermail/mininet-discuss/ 
 
-- Open vSwitch 2.5.90 Documentation: http://openvswitch.org/support/dist-docs/
+- Open vSwitch 2.5.90 Documentation: http://openvswitch.org/support/dist-docs/0
+- [[Video tutorial]](http://zmp3.xyz/play/vnd-sdncompliant-version-video-05-mininet-pox-vlans/U6I1-ejforU.html)
