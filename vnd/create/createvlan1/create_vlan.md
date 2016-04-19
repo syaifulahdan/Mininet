@@ -62,4 +62,17 @@ HTTP request sent, awaiting response... 404 Categoria não encontrada
    mininet> 
 
    </pre>
+   
+   <Pre>
+   mininet> <b>dump</b>
+   <Host h1: h1-eth0:10.0.0,10 pid=8473> 
+   <Host h2: h2-eth0:10.0.0.20 pid=8475> 
+   <Host h3: h3-eth0:10.0.0.40 pid=8477> 
+   <Host h4: h4-eth0:10.0.0.30 pid=8479> 
+   <OVSSwitch s5: lo:127.0.0.1,s5-eth1:None,s5-eth2:None,s5-eth3:None pid=8484> 
+   <OVSSwitch s6: lo:127.0.0.1,s6-eth1:None,s6-eth2:None,s6-eth3:None pid=8487> 
+   <Controller c7: 127.0.0.1:6633 pid=8492> 
+   mininet> 
+
+   </pre>
 4. 
