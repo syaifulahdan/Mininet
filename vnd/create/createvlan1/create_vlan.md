@@ -36,5 +36,24 @@ HTTP request sent, awaiting response... 404 Categoria não encontrada
    copy or create file mininetCode81848.sh in to editor nano or pico in directori mininet/mininet/examples
    ![alt img] (https://github.com/syaifulahdan/mininet/blob/master/vnd/image/Screenshot%20from%202016-04-20%2003:37:56.png)
    
+   then type script in directory examples : 
+   <pre>
+   bertopeng17@bertopeng17-ThinkPad-T520:~/mininet/mininet/examples$ <b>chmod +x mininetCode81848.sh </b>
+   bertopeng17@bertopeng17-ThinkPad-T520:~/mininet/mininet/examples$ <b>./mininetCode81848.sh </b>
+   *** Mininet must run as root.
+   bertopeng17@bertopeng17-ThinkPad-T520:~/mininet/mininet/examples$ sudo ./mininetCode81848.sh 
+   [sudo] password for bertopeng17:<b>*********<</b> 
+   *** Creating nodes
+   *** Creating links
+   *** Starting network
+   *** Configuring hosts
+   h1 h2 h3 h4 
+   *** Running CLI
+   *** Starting CLI:
+   mininet> 
+   </pre>
+   
+   ![alt img](https://github.com/syaifulahdan/mininet/blob/master/vnd/image/Screenshot%20from%202016-04-20%2003:41:02.png)
+
    
 4. 
