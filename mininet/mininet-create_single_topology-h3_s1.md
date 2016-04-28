@@ -2,7 +2,7 @@
 ##Create topology Single 3 Host , 1 Switch  with mac & Controller
 
 
-alt[img](https://github.com/syaifulahdan/mininet/blob/master/finalp-ppj/image/Screenshot%20from%202016-04-28%2017:15:49.png)
+![alt img](https://github.com/syaifulahdan/mininet/blob/master/finalp-ppj/image/Screenshot%20from%202016-04-28%2017:15:49.png)
 
 <pre>
 bertopeng17@bertopeng17-ThinkPad-T520:~$ <b>sudo mn --topo single,3 --mac --switch ovs</b>
