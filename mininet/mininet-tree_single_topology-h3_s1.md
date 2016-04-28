@@ -1,3 +1,4 @@
+![alt img](https://github.com/syaifulahdan/mininet/blob/master/finalp-ppj/image/Screenshot%20from%202016-04-28%2020:53:36.png)
 
 <pre>
 bertopeng17@bertopeng17-ThinkPad-T520:~$ <b>sudo mn --topo tree,3 --mac --switch ovsk --controller=remote</b>
