@@ -19,4 +19,4 @@ s1 s2 s3 s4 s5 s6 s7 ...
 mininet> 
 </pre>
 
-![alt img](https://github.com/syaifulahdan/mininet/blob/master/finalp-ppj/image/Screenshot%20from%202016-04-28%2022:24:53.png)
+![alt img](https://github.com/syaifulahdan/mininet/blob/master/finalp-ppj/image/Screenshot%20from%202016-04-28%2023:24:06.png)
