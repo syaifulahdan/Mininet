@@ -23,7 +23,7 @@ s1 ...
 mininet> 
 </pre>
 
-[!alt img](https://github.com/syaifulahdan/mininet/blob/master/finalp-ppj/image/Screenshot%20from%202016-04-28%2016:04:46.png)
+![alt img](https://github.com/syaifulahdan/mininet/blob/master/finalp-ppj/image/Screenshot%20from%202016-04-28%2016:04:46.png)
 
 
 <pre>
@@ -35,4 +35,4 @@ OVSSwitch s1: lo:127.0.0.1,s1-eth1:None,s1-eth2:None,s1-eth3:None pid=4927
 RemoteController c0: 127.0.0.1:6633 pid=4912
 </pre>
 
-[!alt img](https://github.com/syaifulahdan/mininet/blob/master/finalp-ppj/image/Screenshot%20from%202016-04-28%2016:18:47.png)
+![alt img](https://github.com/syaifulahdan/mininet/blob/master/finalp-ppj/image/Screenshot%20from%202016-04-28%2016:18:47.png)
