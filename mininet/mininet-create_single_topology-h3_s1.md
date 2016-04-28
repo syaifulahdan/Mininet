@@ -24,7 +24,7 @@ c0
 s1 ...
 *** Starting CLI:
 mininet> 
-<pre>
+</pre>
 
 ![alt img](https://github.com/syaifulahdan/mininet/blob/master/finalp-ppj/image/Screenshot%20from%202016-04-28%2016:04:46.png)
 
