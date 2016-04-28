@@ -1,5 +1,5 @@
+![alt img](https://github.com/syaifulahdan/mininet/blob/master/finalp-ppj/image/Screenshot%20from%202016-04-28%2022:24:53.png)
 
-![alt img](https://github.com/syaifulahdan/mininet/blob/master/finalp-ppj/image/Screenshot%20from%202016-04-28%2022:23:10.png)
 <pre>
 bertopeng17@bertopeng17-ThinkPad-T520:~$ <b>sudo mn --topo linear,4 --mac --switch ovsk --controller=remote</b>
 *** Creating network
