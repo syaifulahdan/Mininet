@@ -2,7 +2,7 @@
 ##Create topology Single 3 Host , 1 Switch  with mac & Controller
 
 <pre>
-bertopeng17@bertopeng17-ThinkPad-T520:~$ <b>sudo mn --topo single,3 --mac --switch ovs<b>
+bertopeng17@bertopeng17-ThinkPad-T520:~$ <b>sudo mn --topo single,3 --mac --switch ovs</b>
 k --controller=remote
 *** Creating network
 *** Adding controller
@@ -24,6 +24,8 @@ mininet>
 </pre>
 
 ![alt img](https://github.com/syaifulahdan/mininet/blob/master/finalp-ppj/image/Screenshot%20from%202016-04-28%2016:04:46.png)
+
+
 
 <pre>
 mininet> <b>dump</b>
