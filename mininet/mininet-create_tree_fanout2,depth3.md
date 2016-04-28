@@ -1,3 +1,4 @@
+![alt img] (https://github.com/syaifulahdan/mininet/blob/master/finalp-ppj/image/Screenshot%20from%202016-04-28%2023:38:24.png)
 <pre>
 bertopeng17@bertopeng17-ThinkPad-T520:~$ <b>sudo mn --topo tree,depth=3,fanout=2</b>
 [sudo] password for bertopeng17: <b>*********</b>
