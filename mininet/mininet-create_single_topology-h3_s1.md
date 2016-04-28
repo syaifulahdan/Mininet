@@ -36,3 +36,10 @@ RemoteController c0: 127.0.0.1:6633 pid=4912
 </pre>
 
 ![alt img](https://github.com/syaifulahdan/mininet/blob/master/finalp-ppj/image/Screenshot%20from%202016-04-28%2016:18:47.png)
+
+<pre>
+mininet> nodes
+available nodes are: 
+c0 h1 h2 h3 s1
+</pre>
+![alt img](https://github.com/syaifulahdan/mininet/blob/master/finalp-ppj/image/Screenshot%20from%202016-04-28%2016:23:40.png)
