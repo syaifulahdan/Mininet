@@ -3,9 +3,6 @@
 
 <pre>
 bertopeng17@bertopeng17-ThinkPad-T520:~$ <b>sudo mn --topo single,3 --mac --switch ovs<b>
-</pre>
-
-<pre>
 k --controller=remote
 *** Creating network
 *** Adding controller
