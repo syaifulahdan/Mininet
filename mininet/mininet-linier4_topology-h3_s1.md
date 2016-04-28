@@ -1,6 +1,6 @@
 
 <pre>
-bertopeng17@bertopeng17-ThinkPad-T520:~$ <b>sudo mn --topo linear,4 --mac --switch ovsk --controller=remote1</b>
+bertopeng17@bertopeng17-ThinkPad-T520:~$ <b>sudo mn --topo linear,4 --mac --switch ovsk --controller=remote</b>
 *** Creating network
 *** Adding controller
 Unable to contact the remote controller at 127.0.0.1:6633
