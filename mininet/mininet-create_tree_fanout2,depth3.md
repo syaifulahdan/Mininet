@@ -1,6 +1,6 @@
 <pre>
-bertopeng17@bertopeng17-ThinkPad-T520:~$ sudo mn --topo tree,depth=3,fanout=2
-[sudo] password for bertopeng17: 
+bertopeng17@bertopeng17-ThinkPad-T520:~$ <b>sudo mn --topo tree,depth=3,fanout=2</b>
+[sudo] password for bertopeng17: <b>*********</b>
 *** Creating network
 *** Adding controller
 *** Adding hosts:
