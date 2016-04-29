@@ -41,7 +41,8 @@ Mininet is actively developed and supported, and is released under a permissive 
    -  Create Custom Topology - 8 Host - 5 Switch | [[Python Source Code]] (https://github.com/syaifulahdan/mininet/blob/master/mininet/py-mininet-custop_8host-5sw.py)
    -  Create Custom Topology - Without mn | [[read]] (https://github.com/syaifulahdan/mininet/blob/master/mininet/py-mininet-custop_without_mn.md)
 
--  <b>POX Controller</b>|[[read]](https://github.com/syaifulahdan/POX)   
+-  <b>POX Controller</b>|[[read]](https://github.com/syaifulahdan/POX) 
+   - Running Pox Controller | [[Read]](https://github.com/syaifulahdan/POX/blob/master/pox/running-Pox.md)
 -  <b>VLAN Openflow</b> | [[source]](http://csie.nqu.edu.tw/smallko/sdn/mininet-vlan.htm) 
    -  install Requirement Vlan |[[read]] (https://github.com/syaifulahdan/mininet/blob/master/mininet/vlan-install-requirement-vlan.md) 
 -  <b>FlowVisor</b> | [[installation Flowvisor]](https://github.com/syaifulahdan/mininet/blob/master/mininet/flowvisor-instalation.md) | [[source]](http://rboutaba.cs.uwaterloo.ca/Courses/CS856-F15/Lectures/SDN-Tutorial.pdf) 
