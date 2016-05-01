@@ -1,8 +1,4 @@
 #!/usr/bin/python
-
-"""
-Script created by VND - Visual Network Description (SDN version)
-"""
 from mininet.net import Mininet
 from mininet.node import Controller, RemoteController, OVSKernelSwitch, IVSSwitch, UserSwitch
 from mininet.link import Link, TCLink
