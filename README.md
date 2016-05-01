@@ -56,4 +56,5 @@ Mininet is actively developed and supported, and is released under a permissive 
    - Create Topology : Tree Switch,3 | [[Read]](https://github.com/syaifulahdan/mininet/blob/master/mininet/mininet-tree_single_topology-h3_s1.md)
    - Create Topology : Linear Switch4, | [[Read]](https://github.com/syaifulahdan/mininet/blob/master/mininet/mininet-linier4_topology-h3_s1.md)
    - Create Topology : Tree, Depth=3 & Fanout=2 |[[Read]](https://github.com/syaifulahdan/mininet/blob/master/mininet/mininet-create_tree_fanout2,depth3.md) 
+   - Create Topology 2 Controller:|[[Read]](https://github.com/syaifulahdan/mininet/blob/master/finalp-ppj/mininet-2-controller.md)
       
