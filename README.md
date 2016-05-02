@@ -57,7 +57,7 @@ Mininet is actively developed and supported, and is released under a permissive 
    - Create Topology : Linear Switch4, | [[Read]](https://github.com/syaifulahdan/mininet/blob/master/mininet/mininet-linier4_topology-h3_s1.md)
    - Create Topology : Tree, Depth=3 & Fanout=2 |[[Read]](https://github.com/syaifulahdan/mininet/blob/master/mininet/mininet-create_tree_fanout2,depth3.md) 
    - Create 2 vlan (100 & 200):|[[Read]](https://github.com/syaifulahdan/mininet/blob/master/finalp-ppj/two_vlan.md)
-      - Flow Table Switch1 [[Read]](https://github.com/syaifulahdan/mininet/blob/master/finalp-ppj/two_vlan_flowtable.md)  
+      - Flow Table Switch1 [[Read]](https://github.com/syaifulahdan/mininet/blob/master/finalp-ppj/two_vlan_flowtable1.md)  
    
    
    - Create Topology 2 Controller:|[[Read]](https://github.com/syaifulahdan/mininet/blob/master/finalp-ppj/mininet-2-controller.md)
