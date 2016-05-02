@@ -11,7 +11,7 @@ ovs1 ofport list:
  teacher1 ofport 1
         student1 ofport 2
         ovs2 ofport 3
-        
+
  #ingress
  switch1.cmdPrint('ovs-ofctl add-flow ovs1 in_port=1,dl_vlan=0xffff,actions=mod_vlan_vid:100,output:3')
  switch1.cmdPrint('ovs-ofctl add-flow ovs1 in_port=2,dl_vlan=0xffff,actions=mod_vlan_vid:200,output:3')
