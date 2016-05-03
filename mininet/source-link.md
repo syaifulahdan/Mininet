@@ -13,3 +13,4 @@
 - [[Video tutorial]](http://zmp3.xyz/play/vnd-sdncompliant-version-video-05-mininet-pox-vlans/U6I1-ejforU.html)
 - https://ans.disi.unitn.it/
 - http://pages.cs.wisc.edu/~akella/CS640/F14/assign3/ProgrammingAssignment3.html
+- xterm, curl tutorial http://kickstartsdn.com/author/abdan/page/2/ 
